@@ -14,7 +14,7 @@ public class VBoxRoot extends VBox {
     public VBoxRoot(int nbDuMois, int annee) {
         super(15); // Espacement de 10 entre les éléments
         VBox v = new VBox();
-        StackPane stackPaneDates = new ScrollPane();
+        ScrollPane scrollPaneDates = new ScrollPane();
         scrollPaneDates.setContent(v);
         VBox.setMargin(scrollPaneDates, new Insets(15));
 

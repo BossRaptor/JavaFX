@@ -6,7 +6,7 @@ import javafx.stage.Stage;
 
 import java.io.File;
 
-public class Projet2Application extends Application {
+public class 02Projet2Application extends Application {
     public void start(Stage stage) {
         VBox root = new VBoxRoot(3,2025);
         Scene scene = new Scene(root, 400, 380);
